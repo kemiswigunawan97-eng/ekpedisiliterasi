@@ -1,0 +1,8 @@
+{
+  "name": "Remix Ekspedisi Literasi Lereng Ajung",
+  "description": "Game petualangan literasi membaca interaktif Spensit-Bersatu karya pengembang Kemis Wigunawan berdasarkan Wacana Berita \u0026 Iklan Gerakan Sekolah Cinta Kopi Gunung Anjung, Curug Landung, dan Mobil Idamanku.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

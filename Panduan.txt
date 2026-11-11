@@ -1,0 +1,32 @@
+1. unduh code aistudio donlot zip
+2. ektrak donlotan
+3. buka cmd cd/ lokasi file =  cd /d "D:\00. Aplikasi Pembelajaran\1EkspedisiLiterasi"
+  syarat; 
+  a.  node.js  (donlot node.js org)         cara cek= Npm -v
+  b   git ..version (git.com dolot instal) cara cek = git --version      
+4. install di cmd = npm install --save-dev gh-pages (tanda folder  modul)
+5. buat repsitoris github kita, github .com
+	a. repositoris klik new
+	b. beri nama repositoris (petualangan
+	c. deskripsi (game soal TKA)
+6 buka file Package.json.
+	tambahkan
+	a. Homepage:"http://username.github.io/nama repositoris
+	b  "predeploy":"npm run build",
+	c  "deploy":"gh-pages -d dist"
+7. buka file Vite.config. ts
+	tambahkan bagian bawah:
+	a. base:proces.env
+8. buka indek.html
+	pastikan dibawah pastikan =modul src
+
+9. buka cmd dan gihub lalu dari github kopikan ke cmd
+       copikan 
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git branch -M main
+	git remote add origin https://github.com/kemiswigunawan97-eng/ekpedisiliterasi.git
+	git push -u origin main
+10. Mendiploy manual
+	npm run build
